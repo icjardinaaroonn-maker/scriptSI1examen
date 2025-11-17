@@ -1,0 +1,19 @@
+su - alumno1
+si1
+
+touch listado.txt
+touch prueba.txt
+exit
+
+su - alumno2
+si1
+
+touch docum.txt
+exit
+
+su - usuadmin
+si1
+
+touch notas.txt
+mkdir compartir
+touch compartir/ejercicios.txt
